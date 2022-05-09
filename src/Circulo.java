@@ -6,6 +6,7 @@ public class Circulo extends Figura{
     public void setRadio(double radio) {
         this.radio = radio;}
 
+
     public Circulo(String color, boolean relleno, double radio) {
         super(color, relleno);
         this.radio = radio;

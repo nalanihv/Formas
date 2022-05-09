@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
         /*CLASE PADRE FIGURA. será abstracta
          atrbuto color string

@@ -2,6 +2,7 @@ public abstract class Figura {
     protected String color;
     protected boolean relleno;
 
+
     public String getColor() {
         return color;}
     public void setColor(String color) {

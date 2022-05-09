@@ -2,6 +2,7 @@ public class Rectangulo extends Figura{
     private double ancho;
     private double alto;
 
+
     public double getAncho() {
         return ancho;}
     public void setAncho(double ancho) {
@@ -21,6 +22,7 @@ public class Rectangulo extends Figura{
     @Override
     public double obtenerArea() {
         //implementar
+
         return 0;
     }
 
