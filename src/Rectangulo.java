@@ -23,11 +23,11 @@ public class Rectangulo extends Figura{
     public double obtenerArea() {
         //implementar
 
-        return 0;
+        return getAlto()*getAncho();
     }
 
     @Override
     public double obtenerPerimetro() {
-        return 0;
+        return  (2*getAncho())+(2*getAlto());
     }
 }
