@@ -12,14 +12,15 @@ public class Circulo extends Figura{
         this.radio = radio;
     }
 //implementar
+     float pi=3.1416f;
     @Override
     public double obtenerArea() {
-        return 0;
+        return pi*(Math.pow(getRadio(),2));
 
     }
 
     @Override
     public double obtenerPerimetro() {
-        return 0;
+        return 2*pi*getRadio();
     }
 }
