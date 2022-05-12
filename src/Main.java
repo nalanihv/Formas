@@ -20,6 +20,8 @@ public class Main {
         contrctor que hereda super, incluye ancho y akto, getteres y setters
         implementa area y perimetro tambien.
          */
+        Circulo circulo=new Circulo("azul",true,15.7);
+        System.out.println(circulo.hacerPequenio().obtenerArea());
 
     }
 }
