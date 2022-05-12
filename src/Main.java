@@ -20,5 +20,6 @@ public class Main {
         contrctor que hereda super, incluye ancho y akto, getteres y setters
         implementa area y perimetro tambien.
          */
+
     }
 }
